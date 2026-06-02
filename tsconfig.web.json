@@ -6,11 +6,11 @@
     "module": "ES2020",
     "moduleResolution": "Bundler",
     "jsx": "react-jsx",
-    "outDir": "./dist",
     "types": ["react", "react-dom"],
+    "noEmit": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "noEmitOnError": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "vite.config.ts"]
 }
