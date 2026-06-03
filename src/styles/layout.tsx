@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AppShell = styled.main`
-  min-height: 100vh;
+  min-height: 150vh;
   padding: 2.5rem 1rem;
 
   @media (min-width: 768px) {
